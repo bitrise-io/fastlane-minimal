@@ -1,0 +1,528 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA5CF24D1D3CF9C9006096DE /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CF24C1D3CF9C9006096DE /* AppDelegate.swift */; };
+		BA5CF2501D3CF9C9006096DE /* fastlane_minimal.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = BA5CF24E1D3CF9C9006096DE /* fastlane_minimal.xcdatamodeld */; };
+		BA5CF2521D3CF9C9006096DE /* MasterViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CF2511D3CF9C9006096DE /* MasterViewController.swift */; };
+		BA5CF2541D3CF9C9006096DE /* DetailViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CF2531D3CF9C9006096DE /* DetailViewController.swift */; };
+		BA5CF2571D3CF9C9006096DE /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5CF2551D3CF9C9006096DE /* Main.storyboard */; };
+		BA5CF2591D3CF9C9006096DE /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA5CF2581D3CF9C9006096DE /* Assets.xcassets */; };
+		BA5CF25C1D3CF9C9006096DE /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = BA5CF25A1D3CF9C9006096DE /* LaunchScreen.storyboard */; };
+		BA5CF2671D3CF9C9006096DE /* fastlane_minimalTests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CF2661D3CF9C9006096DE /* fastlane_minimalTests.swift */; };
+		BA5CF2721D3CF9C9006096DE /* fastlane_minimalUITests.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA5CF2711D3CF9C9006096DE /* fastlane_minimalUITests.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		BA5CF2631D3CF9C9006096DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5CF2411D3CF9C9006096DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5CF2481D3CF9C9006096DE;
+			remoteInfo = "fastlane-minimal";
+		};
+		BA5CF26E1D3CF9C9006096DE /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = BA5CF2411D3CF9C9006096DE /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = BA5CF2481D3CF9C9006096DE;
+			remoteInfo = "fastlane-minimal";
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		BA5CF2491D3CF9C9006096DE /* fastlane-minimal.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "fastlane-minimal.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5CF24C1D3CF9C9006096DE /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		BA5CF24F1D3CF9C9006096DE /* fastlane_minimal.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = fastlane_minimal.xcdatamodel; sourceTree = "<group>"; };
+		BA5CF2511D3CF9C9006096DE /* MasterViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = MasterViewController.swift; sourceTree = "<group>"; };
+		BA5CF2531D3CF9C9006096DE /* DetailViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DetailViewController.swift; sourceTree = "<group>"; };
+		BA5CF2561D3CF9C9006096DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		BA5CF2581D3CF9C9006096DE /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA5CF25B1D3CF9C9006096DE /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		BA5CF25D1D3CF9C9006096DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5CF2621D3CF9C9006096DE /* fastlane-minimalTests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-minimalTests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5CF2661D3CF9C9006096DE /* fastlane_minimalTests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_minimalTests.swift; sourceTree = "<group>"; };
+		BA5CF2681D3CF9C9006096DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA5CF26D1D3CF9C9006096DE /* fastlane-minimalUITests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = "fastlane-minimalUITests.xctest"; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA5CF2711D3CF9C9006096DE /* fastlane_minimalUITests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = fastlane_minimalUITests.swift; sourceTree = "<group>"; };
+		BA5CF2731D3CF9C9006096DE /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA5CF2461D3CF9C9006096DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5CF25F1D3CF9C9006096DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5CF26A1D3CF9C9006096DE /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA5CF2401D3CF9C9006096DE = {
+			isa = PBXGroup;
+			children = (
+				BA5CF24B1D3CF9C9006096DE /* fastlane-minimal */,
+				BA5CF2651D3CF9C9006096DE /* fastlane-minimalTests */,
+				BA5CF2701D3CF9C9006096DE /* fastlane-minimalUITests */,
+				BA5CF24A1D3CF9C9006096DE /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA5CF24A1D3CF9C9006096DE /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CF2491D3CF9C9006096DE /* fastlane-minimal.app */,
+				BA5CF2621D3CF9C9006096DE /* fastlane-minimalTests.xctest */,
+				BA5CF26D1D3CF9C9006096DE /* fastlane-minimalUITests.xctest */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA5CF24B1D3CF9C9006096DE /* fastlane-minimal */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CF24C1D3CF9C9006096DE /* AppDelegate.swift */,
+				BA5CF2511D3CF9C9006096DE /* MasterViewController.swift */,
+				BA5CF2531D3CF9C9006096DE /* DetailViewController.swift */,
+				BA5CF2551D3CF9C9006096DE /* Main.storyboard */,
+				BA5CF2581D3CF9C9006096DE /* Assets.xcassets */,
+				BA5CF25A1D3CF9C9006096DE /* LaunchScreen.storyboard */,
+				BA5CF25D1D3CF9C9006096DE /* Info.plist */,
+				BA5CF24E1D3CF9C9006096DE /* fastlane_minimal.xcdatamodeld */,
+			);
+			path = "fastlane-minimal";
+			sourceTree = "<group>";
+		};
+		BA5CF2651D3CF9C9006096DE /* fastlane-minimalTests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CF2661D3CF9C9006096DE /* fastlane_minimalTests.swift */,
+				BA5CF2681D3CF9C9006096DE /* Info.plist */,
+			);
+			path = "fastlane-minimalTests";
+			sourceTree = "<group>";
+		};
+		BA5CF2701D3CF9C9006096DE /* fastlane-minimalUITests */ = {
+			isa = PBXGroup;
+			children = (
+				BA5CF2711D3CF9C9006096DE /* fastlane_minimalUITests.swift */,
+				BA5CF2731D3CF9C9006096DE /* Info.plist */,
+			);
+			path = "fastlane-minimalUITests";
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA5CF2481D3CF9C9006096DE /* fastlane-minimal */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5CF2761D3CF9C9006096DE /* Build configuration list for PBXNativeTarget "fastlane-minimal" */;
+			buildPhases = (
+				BA5CF2451D3CF9C9006096DE /* Sources */,
+				BA5CF2461D3CF9C9006096DE /* Frameworks */,
+				BA5CF2471D3CF9C9006096DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "fastlane-minimal";
+			productName = "fastlane-minimal";
+			productReference = BA5CF2491D3CF9C9006096DE /* fastlane-minimal.app */;
+			productType = "com.apple.product-type.application";
+		};
+		BA5CF2611D3CF9C9006096DE /* fastlane-minimalTests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5CF2791D3CF9C9006096DE /* Build configuration list for PBXNativeTarget "fastlane-minimalTests" */;
+			buildPhases = (
+				BA5CF25E1D3CF9C9006096DE /* Sources */,
+				BA5CF25F1D3CF9C9006096DE /* Frameworks */,
+				BA5CF2601D3CF9C9006096DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5CF2641D3CF9C9006096DE /* PBXTargetDependency */,
+			);
+			name = "fastlane-minimalTests";
+			productName = "fastlane-minimalTests";
+			productReference = BA5CF2621D3CF9C9006096DE /* fastlane-minimalTests.xctest */;
+			productType = "com.apple.product-type.bundle.unit-test";
+		};
+		BA5CF26C1D3CF9C9006096DE /* fastlane-minimalUITests */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA5CF27C1D3CF9C9006096DE /* Build configuration list for PBXNativeTarget "fastlane-minimalUITests" */;
+			buildPhases = (
+				BA5CF2691D3CF9C9006096DE /* Sources */,
+				BA5CF26A1D3CF9C9006096DE /* Frameworks */,
+				BA5CF26B1D3CF9C9006096DE /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				BA5CF26F1D3CF9C9006096DE /* PBXTargetDependency */,
+			);
+			name = "fastlane-minimalUITests";
+			productName = "fastlane-minimalUITests";
+			productReference = BA5CF26D1D3CF9C9006096DE /* fastlane-minimalUITests.xctest */;
+			productType = "com.apple.product-type.bundle.ui-testing";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA5CF2411D3CF9C9006096DE /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0730;
+				LastUpgradeCheck = 0730;
+				ORGANIZATIONNAME = bitrise;
+				TargetAttributes = {
+					BA5CF2481D3CF9C9006096DE = {
+						CreatedOnToolsVersion = 7.3.1;
+					};
+					BA5CF2611D3CF9C9006096DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA5CF2481D3CF9C9006096DE;
+					};
+					BA5CF26C1D3CF9C9006096DE = {
+						CreatedOnToolsVersion = 7.3.1;
+						TestTargetID = BA5CF2481D3CF9C9006096DE;
+					};
+				};
+			};
+			buildConfigurationList = BA5CF2441D3CF9C9006096DE /* Build configuration list for PBXProject "fastlane-minimal" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA5CF2401D3CF9C9006096DE;
+			productRefGroup = BA5CF24A1D3CF9C9006096DE /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA5CF2481D3CF9C9006096DE /* fastlane-minimal */,
+				BA5CF2611D3CF9C9006096DE /* fastlane-minimalTests */,
+				BA5CF26C1D3CF9C9006096DE /* fastlane-minimalUITests */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA5CF2471D3CF9C9006096DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5CF25C1D3CF9C9006096DE /* LaunchScreen.storyboard in Resources */,
+				BA5CF2591D3CF9C9006096DE /* Assets.xcassets in Resources */,
+				BA5CF2571D3CF9C9006096DE /* Main.storyboard in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5CF2601D3CF9C9006096DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5CF26B1D3CF9C9006096DE /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA5CF2451D3CF9C9006096DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5CF24D1D3CF9C9006096DE /* AppDelegate.swift in Sources */,
+				BA5CF2501D3CF9C9006096DE /* fastlane_minimal.xcdatamodeld in Sources */,
+				BA5CF2521D3CF9C9006096DE /* MasterViewController.swift in Sources */,
+				BA5CF2541D3CF9C9006096DE /* DetailViewController.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5CF25E1D3CF9C9006096DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5CF2671D3CF9C9006096DE /* fastlane_minimalTests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		BA5CF2691D3CF9C9006096DE /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA5CF2721D3CF9C9006096DE /* fastlane_minimalUITests.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		BA5CF2641D3CF9C9006096DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5CF2481D3CF9C9006096DE /* fastlane-minimal */;
+			targetProxy = BA5CF2631D3CF9C9006096DE /* PBXContainerItemProxy */;
+		};
+		BA5CF26F1D3CF9C9006096DE /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			target = BA5CF2481D3CF9C9006096DE /* fastlane-minimal */;
+			targetProxy = BA5CF26E1D3CF9C9006096DE /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin PBXVariantGroup section */
+		BA5CF2551D3CF9C9006096DE /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5CF2561D3CF9C9006096DE /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		BA5CF25A1D3CF9C9006096DE /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				BA5CF25B1D3CF9C9006096DE /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		BA5CF2741D3CF9C9006096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		BA5CF2751D3CF9C9006096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 9.3;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		BA5CF2771D3CF9C9006096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fastlane-minimal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.fastlane-minimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Debug;
+		};
+		BA5CF2781D3CF9C9006096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				INFOPLIST_FILE = "fastlane-minimal/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.fastlane-minimal";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+			};
+			name = Release;
+		};
+		BA5CF27A1D3CF9C9006096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fastlane-minimalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.fastlane-minimalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastlane-minimal.app/fastlane-minimal";
+			};
+			name = Debug;
+		};
+		BA5CF27B1D3CF9C9006096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				BUNDLE_LOADER = "$(TEST_HOST)";
+				INFOPLIST_FILE = "fastlane-minimalTests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.fastlane-minimalTests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_HOST = "$(BUILT_PRODUCTS_DIR)/fastlane-minimal.app/fastlane-minimal";
+			};
+			name = Release;
+		};
+		BA5CF27D1D3CF9C9006096DE /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fastlane-minimalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.fastlane-minimalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fastlane-minimal";
+			};
+			name = Debug;
+		};
+		BA5CF27E1D3CF9C9006096DE /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				INFOPLIST_FILE = "fastlane-minimalUITests/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = "io.bitrise.fastlane-minimalUITests";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TEST_TARGET_NAME = "fastlane-minimal";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA5CF2441D3CF9C9006096DE /* Build configuration list for PBXProject "fastlane-minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5CF2741D3CF9C9006096DE /* Debug */,
+				BA5CF2751D3CF9C9006096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA5CF2761D3CF9C9006096DE /* Build configuration list for PBXNativeTarget "fastlane-minimal" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5CF2771D3CF9C9006096DE /* Debug */,
+				BA5CF2781D3CF9C9006096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA5CF2791D3CF9C9006096DE /* Build configuration list for PBXNativeTarget "fastlane-minimalTests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5CF27A1D3CF9C9006096DE /* Debug */,
+				BA5CF27B1D3CF9C9006096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+		BA5CF27C1D3CF9C9006096DE /* Build configuration list for PBXNativeTarget "fastlane-minimalUITests" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA5CF27D1D3CF9C9006096DE /* Debug */,
+				BA5CF27E1D3CF9C9006096DE /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		BA5CF24E1D3CF9C9006096DE /* fastlane_minimal.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				BA5CF24F1D3CF9C9006096DE /* fastlane_minimal.xcdatamodel */,
+			);
+			currentVersion = BA5CF24F1D3CF9C9006096DE /* fastlane_minimal.xcdatamodel */;
+			path = fastlane_minimal.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = BA5CF2411D3CF9C9006096DE /* Project object */;
+}
