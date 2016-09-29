@@ -1,3 +1,4 @@
 xcuserdata/
 report.xml
 fastlane-minimal/fastlane/test_output
+.DS_Store
